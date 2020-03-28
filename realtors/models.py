@@ -11,5 +11,6 @@ class Realtor(models.Model):
     is_mvp = models.BooleanField(default=False)
     hire_date = models.DateTimeField(default=datetime.now, blank=True)
 
+    #displays name in admin
     def __str__(self):
         return self.name
