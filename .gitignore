@@ -11,3 +11,4 @@ venv
 schemas.txt
 DATABASES
 SECRET_KEY
+.vscode
