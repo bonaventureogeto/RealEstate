@@ -10,5 +10,5 @@ venv
 /static
 schemas.txt
 DATABASES
-SECRET_KEY
 .vscode
+.env
