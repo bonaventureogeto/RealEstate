@@ -1,1 +1,4 @@
-web: gunicorn run:app
+release:  python manage.py makemigrations pages realtors listings contacts accounts
+release: python manage.py migrate
+
+web: gunicorn btre.wsgi
