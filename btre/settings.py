@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if bool(DEBUG) == True:
+if DEBUG == True:
     print(os.environ.get('DEBUG'), '**********************')
     DATABASES = {
         'default': {
